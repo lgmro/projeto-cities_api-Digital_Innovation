@@ -1,5 +1,7 @@
 package com.github.lgmro.citiesapi.cities;
 
-public interface CityRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CityRepository extends JpaRepository<City, Integer> {
 
 }
