@@ -1,7 +1,7 @@
-package com.github.lgmro.citiesapi;
+package com.github.lgmro.citiesapi.countries;
 
 import com.github.lgmro.citiesapi.countries.Country;
-import com.github.lgmro.citiesapi.repository.CountryRepository;
+import com.github.lgmro.citiesapi.countries.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
